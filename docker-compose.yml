@@ -1,7 +1,7 @@
 services:
   lint:
     image: buildkite/plugin-linter
-    command: ['--id', 'Hivebrite/git-flags']
+    command: ['--id', 'whizzzkid/git-flags']
     volumes:
       - ".:/plugin:ro"
   tests:

@@ -10,7 +10,7 @@ Add the following to your `pipeline.yml`:
 steps:
   - command: ls
     plugins:
-      - Hivebrite/git-flags#v0.0.1:
+      - whizzzkid/git-flags#v1.0.0:
           clone: "--all"
           fetch: "--all"
 ```

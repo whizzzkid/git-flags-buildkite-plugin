@@ -1,6 +1,6 @@
-name: Git flags
+name: git-flags
 description: Sets git-clone and git-fetch flags
-author: https://github.com/Hivebrite
+author: https://github.com/whizzzkid
 requirements: ['git']
 configuration:
   properties:
