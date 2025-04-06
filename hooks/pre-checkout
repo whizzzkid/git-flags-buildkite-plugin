@@ -3,14 +3,14 @@ set -eo pipefail
 
 echo "--- Running pre-checkout hook"
 
-if [ -n "$BUILDKITE_PLUGIN_GIT_FLAGS_CLONE" ]; then
-  export BUILDKITE_GIT_CLONE_FLAGS="$BUILDKITE_PLUGIN_GIT_FLAGS_CLONE"
-  
-  echo "Set buildkite git clone flags to $BUILDKITE_PLUGIN_GIT_FLAGS_CLONE"
+if [ -n "$BUILDKITE_PLUGIN_GIT_FLAGS_CLONE_FLAGS" ]; then
+  export BUILDKITE_GIT_CLONE_FLAGS="$BUILDKITE_PLUGIN_GIT_FLAGS_CLONE_FLAGS"
+
+  echo "Set buildkite git clone flags to $BUILDKITE_PLUGIN_GIT_FLAGS_CLONE_FLAGS"
 fi
 
-if [ -n "$BUILDKITE_PLUGIN_GIT_FLAGS_FETCH" ]; then
-  export BUILDKITE_GIT_FETCH_FLAGS="$BUILDKITE_PLUGIN_GIT_FLAGS_FETCH"
-  
-  echo "Set buildkite git fetch flags to $BUILDKITE_PLUGIN_GIT_FLAGS_FETCH"
+if [ -n "$BUILDKITE_PLUGIN_GIT_FLAGS_FETCH_FLAGS" ]; then
+  export BUILDKITE_GIT_FETCH_FLAGS="$BUILDKITE_PLUGIN_GIT_FLAGS_FETCH_FLAGS"
+
+  echo "Set buildkite git fetch flags to $BUILDKITE_PLUGIN_GIT_FLAGS_FETCH_FLAGS"
 fi

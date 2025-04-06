@@ -14,8 +14,8 @@ steps:
   - command: ls
     plugins:
       - whizzzkid/git-flags#<latest_tag>:
-          clone: "--all"
-          fetch: "--all"
+          clone_flags: "--all"
+          fetch_flags: "--all"
 ```
 
 ## Configuration
