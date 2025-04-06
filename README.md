@@ -1,5 +1,8 @@
 # Git flags Buildkite Plugin
 
+![Github Workflow (CI)](https://github.com/whizzzkid/git-flags-buildkite-plugin/actions/workflows/ci.yml/badge.svg)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/whizzzkid/git-flags-buildkite-plugin)
+
 Sets the Buildkite git flags for the current build.
 
 ## Example
@@ -10,7 +13,7 @@ Add the following to your `pipeline.yml`:
 steps:
   - command: ls
     plugins:
-      - whizzzkid/git-flags#v1.0.0:
+      - whizzzkid/git-flags#<latest_tag>:
           clone: "--all"
           fetch: "--all"
 ```
