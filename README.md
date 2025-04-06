@@ -3,7 +3,7 @@
 ![Github Workflow (CI)](https://github.com/whizzzkid/git-flags-buildkite-plugin/actions/workflows/ci.yml/badge.svg)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/whizzzkid/git-flags-buildkite-plugin)
 
-Sets the Buildkite git flags for the current build.
+Sets the Buildkite git flags for the current build. This can be useful to customize the behavior of the git commands used by Buildkite.
 
 ## Example
 
