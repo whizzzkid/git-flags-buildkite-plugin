@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.1.0 (2025-04-06)
+
+## What's Changed
+* fix(ci): 🐛 release please not working as expected  by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/7
+* fix(ci): 🐛 Also needs .release-please-manifest.json  by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/8
+* fix(ci): 🐛 unhappy with release-please  by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/9
+* fix(docs): 📝 Updating readme. by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/10
+* Release-As: 1.0.0 by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/11
+* refactor(flags): ♻️ Refactor input params by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/12
+* feat(flags): ✨ Adding Support for All Supported git flags in BuildKite. by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/13
+* fix(ci): release please config by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/14
+
+
+**Full Changelog**: https://github.com/whizzzkid/git-flags-buildkite-plugin/compare/v1.0.0...v1.1.0
+
 ## 1.0.0 (2025-04-06)
 
 
