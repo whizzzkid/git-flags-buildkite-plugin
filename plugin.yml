@@ -6,6 +6,6 @@ configuration:
   properties:
     clone_flags:
       type: string
-    fetch_falgs:
+    fetch_flags:
       type: string
   required: []
