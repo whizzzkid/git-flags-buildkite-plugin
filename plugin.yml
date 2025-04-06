@@ -4,8 +4,23 @@ author: https://github.com/whizzzkid
 requirements: ['git']
 configuration:
   properties:
+    clean_flags:
+      type: string
+      default: '-ffxdq'
     clone_flags:
+      type: string
+      default: '-v'
+    clone_mirror_flags:
       type: string
     fetch_flags:
       type: string
+      default: '-v --prune'
+    mirrors_lock_timeout:
+      type: string
+      default: 300
+    mirrors_path:
+      type: string
+    mirrors_skip_update:
+      type: boolean
+      default: false
   required: []
