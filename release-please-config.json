@@ -2,5 +2,7 @@
   "release-type": "simple",
   "include-v-in-tag": true,
   "release-as": "v1.0.0",
+  "always-update": true,
+  "changelog-type": "github",
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
