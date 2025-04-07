@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1 (2025-04-07)
+
+## What's Changed
+* fix(docs): Updating Readme. by @whizzzkid in https://github.com/whizzzkid/git-flags-buildkite-plugin/pull/16
+
+
+**Full Changelog**: https://github.com/whizzzkid/git-flags-buildkite-plugin/compare/v1.1.0...v1.1.1
+
 ## 1.1.0 (2025-04-06)
 
 ## What's Changed
